@@ -94,9 +94,8 @@ Sent via VeloFibre Online Portal`;
                   </h3>
                   <address className="not-italic text-slate-300 text-sm leading-relaxed mb-6 border-l-2 border-orange-600 pl-4">
                      VeloFibre Network Limited<br/>
-                     VeloFibre House, Tech Square<br/>
-                     Birmingham, West Midlands<br/>
-                     B4 7ET<br/>
+                     26-28 Paddenswick Road, The Curtis Building<br/>
+                     W6 0UB London<br/>
                      United Kingdom
                   </address>
                   <div className="space-y-2">

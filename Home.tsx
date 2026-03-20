@@ -293,7 +293,7 @@ const Home: React.FC = () => {
             Build the <br/><span className="text-slate-900">Next Generation</span>.
           </h2>
           <p className="text-white/90 text-lg lg:text-xl font-bold mb-12 max-w-2xl mx-auto">
-            Contact our project office in Birmingham to discuss large-scale tenders, technical specifications, and custom infrastructure fabrication.
+            Contact our project office in London to discuss large-scale tenders, technical specifications, and custom infrastructure fabrication.
           </p>
           <Link to="/contact" className="inline-block bg-slate-900 text-white px-12 lg:px-16 py-5 lg:py-6 rounded-sm font-black uppercase tracking-widest shadow-2xl hover:bg-white hover:text-slate-900 transition-all text-xs lg:text-sm active:scale-95">
             Contact Project Office

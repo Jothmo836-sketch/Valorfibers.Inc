@@ -128,7 +128,7 @@ const Products: React.FC = () => {
           <Box className="w-16 h-16 text-orange-600 mx-auto mb-10" />
           <h2 className="text-4xl lg:text-6xl font-black text-white heading-font uppercase mb-8 tracking-tighter">Bulk Supply <br/>& <span className="text-orange-600">Distribution</span></h2>
           <p className="text-slate-400 mb-12 text-lg font-medium leading-relaxed">
-            We hold extensive inventory in our Birmingham facility for rapid dispatch. Open a project account today for preferential volume rates.
+            We hold extensive inventory in our London facility for rapid dispatch. Open a project account today for preferential volume rates.
           </p>
           <Link to="/contact" className="inline-block bg-orange-600 text-white px-12 lg:px-16 py-5 lg:py-6 rounded-sm font-black uppercase tracking-widest shadow-2xl hover:bg-white hover:text-slate-900 transition-all text-xs lg:text-sm active:scale-95">
             Open Trade Account

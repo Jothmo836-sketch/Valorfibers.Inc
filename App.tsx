@@ -208,9 +208,9 @@ const Footer: React.FC = () => {
               <li className="flex items-start space-x-4">
                 <MapPin className="w-5 h-5 text-orange-600 shrink-0 mt-1" />
                 <span className="font-semibold text-slate-300">
-                  VeloFibre House, Innovation Way<br/>
-                  Birmingham, West Midlands<br/>
-                  B4 7ET, United Kingdom
+                  26-28 Paddenswick Road, The Curtis Building<br/>
+                  W6 0UB London<br/>
+                  United Kingdom
                 </span>
               </li>
               <li className="flex items-center space-x-4">
