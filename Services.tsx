@@ -62,7 +62,7 @@ const Services: React.FC = () => {
         <div className="absolute inset-0 z-0">
           <img 
             src={IMAGES.HERO_BG} 
-            alt="VeloFibre Services" 
+            alt="Valorfibres Inc Services"
             className="w-full h-full object-cover opacity-20"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-slate-900/90 via-slate-900/80 to-slate-900/90"></div>
@@ -71,7 +71,7 @@ const Services: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <h1 className="text-5xl lg:text-9xl font-black heading-font uppercase mb-6"> <span className="text-orange-600">Services</span></h1>
           <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-            Beyond component supply, VeloFibre Network delivers professional installation, testing, and consultancy services for mission-critical networks.
+            Beyond component supply, Valorfibres Inc delivers professional installation, testing, and consultancy services for mission-critical networks.
           </p>
         </div>
       </section>
@@ -116,7 +116,7 @@ const Services: React.FC = () => {
                <div>
                   <h2 className="text-3xl font-black heading-font uppercase text-slate-900 mb-6">Rapid Response Unit</h2>
                   <p className="text-slate-600 mb-6 leading-relaxed">
-                    Network failure is not an option. VeloFibre provides a 24/7 emergency fibre repair service for mission-critical infrastructure. Our rapid response vehicles are fully equipped to locate and fix breaks immediately.
+                    Network failure is not an option. Valorfibres Inc provides a 24/7 emergency fibre repair service for mission-critical infrastructure. Our rapid response vehicles are fully equipped to locate and fix breaks immediately.
                   </p>
                   <Link to="/contact" className="inline-block bg-slate-900 text-white px-8 py-3 font-bold uppercase tracking-widest text-sm hover:bg-red-600 transition-colors">
                     Emergency Contact

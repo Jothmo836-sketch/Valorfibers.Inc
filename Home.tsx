@@ -74,7 +74,7 @@ const Home: React.FC = () => {
         <div className="absolute inset-0 z-0">
           <img 
             src={IMAGES.HERO_BACKGOUND} 
-            alt="VeloFibre Backbone" 
+            alt="Valorfibres Inc Backbone"
             className="w-full h-full object-cover brightness-[0.8] scale-[1.05] transition-transform duration-[6000ms] ease-out group-hover:scale-110 group-hover:translate-x-2 group-hover:-translate-y-2 animate-slow-zoom"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/75 to-slate-950/30"></div>
@@ -88,7 +88,7 @@ const Home: React.FC = () => {
             </div>
 
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-[6rem] xl:text-[7rem] font-black text-white heading-font tracking-[-0.06em] leading-[0.88] uppercase">
-              VeloFibre <span className="block text-orange-600">Network</span>
+              Valorfibres <span className="block text-orange-600">Inc</span>
             </h1>
             
             <p className="mt-6 max-w-xl text-base sm:text-lg lg:text-xl text-slate-200 leading-relaxed font-medium border-l-4 border-orange-600 pl-5 lg:pl-6">
@@ -140,7 +140,7 @@ const Home: React.FC = () => {
               <span className="text-orange-600 font-black uppercase tracking-[0.4em] text-[10px] block mb-4">The Precision Layer</span>
               <h2 className="text-4xl lg:text-7xl font-black text-slate-900 heading-font uppercase leading-[0.9] mb-10">Beyond the <br/><span className="text-orange-600">Standard</span>.</h2>
               <p className="text-base lg:text-lg text-slate-600 font-medium leading-relaxed mb-12">
-                VeloFibre Network isn't just a supplier. We are an engineering partner. From deep-trench armoured fibre to tactical field nodes, we ensure that the physical infrastructure underpinning your data is indestructible.
+                Valorfibres Inc isn't just a supplier. We are an engineering partner. From deep-trench armoured fibre to tactical field nodes, we ensure that the physical infrastructure underpinning your data is indestructible.
               </p>
               
               <div className="grid grid-cols-2 gap-8 lg:gap-12">
@@ -155,7 +155,7 @@ const Home: React.FC = () => {
               </div>
 
               <Link to="/about" className="inline-flex items-center mt-12 text-slate-950 font-black uppercase tracking-widest text-xs border-b-2 border-orange-600 pb-2 hover:text-orange-600 transition-all">
-                The VeloFibre Story <ChevronRight className="ml-2 w-4 h-4" />
+                The Valorfibres Story <ChevronRight className="ml-2 w-4 h-4" />
               </Link>
             </ScrollReveal>
             
@@ -225,7 +225,7 @@ const Home: React.FC = () => {
                  </div>
                  <h2 className="text-4xl font-black heading-font uppercase text-slate-900 mb-6">Green <span className="text-orange-600">Infrastructure</span>.</h2>
                  <p className="text-slate-600 font-medium leading-relaxed mb-6">
-                   VeloFibre Network is dedicated to reducing the carbon footprint of network deployment. We utilize LSZH (Low Smoke Zero Halogen) materials, recyclable cable reels, and optimized logistics to minimize waste.
+                   Valorfibres Inc is dedicated to reducing the carbon footprint of network deployment. We utilize LSZH (Low Smoke Zero Halogen) materials, recyclable cable reels, and optimized logistics to minimize waste.
                  </p>
                  <ul className="space-y-3">
                    {["100% Recyclable Drum Packaging", "RoHS Compliant Materials", "Carbon-Neutral Shipping Options"].map((item, i) => (

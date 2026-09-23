@@ -44,7 +44,7 @@ const About: React.FC = () => {
           <div className="absolute inset-0 z-0">
             <img 
               src={IMAGES.HEADER_BG} 
-              alt="VeloFibre Operations" 
+              alt="Valorfibres Inc Operations" 
               className="w-full h-full object-cover opacity-30 grayscale-[0.5] scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-slate-950/90 via-transparent to-slate-950"></div>
@@ -78,7 +78,7 @@ const About: React.FC = () => {
               <div className="w-24 h-4 bg-orange-600 mb-12"></div>
               <h2 className="text-5xl lg:text-8xl font-black text-slate-900 heading-font uppercase leading-none tracking-tighter">Beyond the <br/><span className="text-orange-600">Trench</span>.</h2>
               <p className="text-xl text-slate-600 font-medium leading-relaxed">
-                VeloFibre Network was founded on a singular premise: the digital world is only as robust as the physical cables that bind it. From our early days in regional fiber rollout to our current position as a Tier-1 global supplier, we have focused exclusively on high-performance infrastructure.
+                Valorfibres Inc was founded on a singular premise: the digital world is only as robust as the physical cables that bind it. From our early days in regional fiber rollout to our current position as a Tier-1 global supplier, we have focused exclusively on high-performance infrastructure.
               </p>
               <p className="text-xl text-slate-500 font-medium leading-relaxed">
                 We manage the entire lifecycle of high-density cabling—from technical specification and QC laboratory testing to strategic global logistics. Our inventory represents the cutting-edge of optical transmission technology.
@@ -106,7 +106,7 @@ const About: React.FC = () => {
                <div className="absolute -inset-4 bg-slate-900 transform translate-x-8 translate-y-8 -z-10"></div>
                <img 
                  src={IMAGES.ENGINEERING_DEPOT} 
-                 alt="VeloFibre Engineering Depot" 
+                 alt="Valorfibres Inc Engineering Depot" 
                  className="rounded-sm shadow-3xl w-full h-[700px] object-cover filter brightness-90 hover:brightness-100 transition-all duration-1000"
                />
                <div className="absolute bottom-10 right-10 p-10 bg-orange-600 text-white font-black heading-font uppercase tracking-widest shadow-2xl">
@@ -127,7 +127,7 @@ const About: React.FC = () => {
            </p>
            <img 
              src={IMAGES.GLOBAL_MAP} 
-             alt="VeloFibre Global Map" 
+             alt="Valorfibres Inc Global Map" 
              className="w-full h-[500px] object-cover rounded-sm shadow-2xl"
            />
         </div>

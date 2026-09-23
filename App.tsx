@@ -225,7 +225,7 @@ const Footer: React.FC = () => {
 
         {/* Footer Bottom Text */}
         <div className="border-t border-slate-900 pt-10 text-center text-[10px] font-black uppercase tracking-[0.4em] text-slate-600">
-          &copy; 1995–{new Date().getFullYear()} VeloFibre Network Limited | ISO 9001:2015 Certified | Precision Physical Infrastructure
+          &copy; 1995–{new Date().getFullYear()} Valorfibres Inc | ISO 9001:2015 Certified | Precision Physical Infrastructure
         </div>
       </div>
     </footer>

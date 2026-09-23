@@ -1,4 +1,4 @@
-﻿# VeloFibre Network
+﻿# Valorfibres Inc
 
 A static marketing website for fibre, copper, and critical infrastructure solutions.
 

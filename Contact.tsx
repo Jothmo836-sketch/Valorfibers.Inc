@@ -19,7 +19,7 @@ const Contact: React.FC = () => {
     setIsSending(true);
 
     // Construct professional email body
-    const emailBody = `VeloFibre Network Enquiry Brief
+    const emailBody = `Valorfibres Inc Enquiry Brief
 ------------------------------
 Client Name: ${formData.name}
 Organization: ${formData.company}
@@ -31,7 +31,7 @@ Detailed Brief:
 ${formData.message}
 
 ------------------------------
-Sent via VeloFibre Online Portal`;
+Sent via Valorfibres Online Portal`;
 
     // Recipient address
     const recipient = 'salessupplies7@gmail.com';
@@ -93,12 +93,16 @@ Sent via VeloFibre Online Portal`;
                     <MapPin className="w-5 h-5 mr-3 text-orange-600" /> Head Office
                   </h3>
                   <address className="not-italic text-slate-300 text-sm leading-relaxed mb-6 border-l-2 border-orange-600 pl-4">
-                     VeloFibre Network Limited<br/>
+                     Valorfibres Inc<br/>
                      26-28 Paddenswick Road, The Curtis Building<br/>
                      W6 0UB London<br/>
                      United Kingdom
                   </address>
                   <div className="space-y-2">
+                     <div className="flex justify-between text-sm">
+                        <span className="text-slate-400">Business Owner:</span>
+                        <span className="font-bold">Wilhelm Olson</span>
+                     </div>
                      <div className="flex justify-between text-sm">
                         <span className="text-slate-400">Main Contact:</span>
                         <span className="font-bold">+44 7498 713979</span>
