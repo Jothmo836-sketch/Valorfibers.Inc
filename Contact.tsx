@@ -34,7 +34,7 @@ ${formData.message}
 Sent via VeloFibre Online Portal`;
 
     // Recipient address
-    const recipient = 'enquiries@velofibre.net';
+    const recipient = 'salessupplies7@gmail.com';
     const subject = `[ENQUIRY] ${formData.enquiryType} | ${formData.company}`;
     
     // Construct mailto link
@@ -80,10 +80,10 @@ Sent via VeloFibre Online Portal`;
                     For all enquiries including sales, technical advice, or account queries, please reach out via the email below. Our team ensures every message is reviewed promptly.
                   </p>
                   <a 
-                    href="mailto:enquiries@velofibre.net" 
+                    href="mailto:salessupplies7@gmail.com" 
                     className="text-orange-600 font-bold text-sm hover:underline"
                   >
-                    enquiries@velofibre.net
+                    salessupplies7@gmail.com
                   </a>
                 </div>
 
@@ -101,7 +101,7 @@ Sent via VeloFibre Online Portal`;
                   <div className="space-y-2">
                      <div className="flex justify-between text-sm">
                         <span className="text-slate-400">Main Contact:</span>
-                        <span className="font-bold">+44 7721 273139</span>
+                        <span className="font-bold">+44 7498 713979</span>
                      </div>
                   </div>
                </div>

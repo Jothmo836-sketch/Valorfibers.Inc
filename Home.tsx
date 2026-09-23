@@ -70,40 +70,45 @@ const Home: React.FC = () => {
   return (
     <div className="bg-white overflow-hidden">
       {/* Hero */}
-      <section className="relative min-h-[100vh] lg:min-h-[140vh] flex items-center justify-start bg-slate-900 overflow-hidden pt-16 lg:pt-20 group cursor-default">
+      <section className="relative h-[100vh] min-h-[700px] flex items-center justify-start bg-slate-900 overflow-hidden pt-20 group cursor-default">
         <div className="absolute inset-0 z-0">
           <img 
             src={IMAGES.HERO_BACKGOUND} 
             alt="VeloFibre Backbone" 
-            className="w-full h-full object-cover brightness-[1] scale-[1.05] transition-transform duration-[6000ms] ease-out group-hover:scale-115 group-hover:translate-x-4 group-hover:-translate-y-4 group-focus-within:scale-115 group-focus-within:translate-x-4 group-focus-within:-translate-y-4 group-active:scale-115 group-active:translate-x-4 group-active:-translate-y-4 animate-slow-zoom"
+            className="w-full h-full object-cover brightness-[0.8] scale-[1.05] transition-transform duration-[6000ms] ease-out group-hover:scale-110 group-hover:translate-x-2 group-hover:-translate-y-2 animate-slow-zoom"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/70 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/75 to-slate-950/30"></div>
           <div className="absolute inset-0 industrial-pattern opacity-10 pointer-events-none"></div>
         </div>
         
-        <div className="max-w-[4500px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full h-full flex items-center">
-          <ScrollReveal className="max-w-4xl space-y-8 lg:space-y-12 md:pl-4 lg:pl-14 xl:pl-20">
-            <h1 className="text-7xl sm:text-8xl md:text-9xl lg:text-[8rem] xl:text-[10rem] font-black text-white heading-font tracking-tighter leading-[0.85] uppercase">
-              VeloFibre <br/><span className="text-orange-600">Network</span>
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <ScrollReveal className="max-w-3xl md:pl-4 lg:pl-0">
+            <div className="mb-5 inline-flex items-center gap-3 rounded-full border border-white/15 bg-white/5 px-4 py-2 text-[10px] font-black uppercase tracking-[0.35em] text-slate-200 backdrop-blur-sm">
+              Precision Infrastructure Specialists
+            </div>
+
+            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-[6rem] xl:text-[7rem] font-black text-white heading-font tracking-[-0.06em] leading-[0.88] uppercase">
+              VeloFibre <span className="block text-orange-600">Network</span>
             </h1>
             
-            <p className="text-lg md:text-xl lg:text-2xl text-slate-200 leading-relaxed font-bold max-w-2xl border-l-4 lg:border-l-8 border-orange-600 pl-6 lg:pl-10">
-              High-reliability fibre + copper for secure networks.
+            <p className="mt-6 max-w-xl text-base sm:text-lg lg:text-xl text-slate-200 leading-relaxed font-medium border-l-4 border-orange-600 pl-5 lg:pl-6">
+              High-reliability fibre and copper infrastructure for secure, mission-critical networks.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 lg:gap-6 pt-6">
-              <Link to="/products" className="group/btn bg-orange-600 text-white px-8 lg:px-12 py-4 lg:py-6 font-black uppercase tracking-widest text-xs flex items-center justify-center hover:bg-white hover:text-slate-900 transition-all shadow-xl active:scale-95">
+            <div className="mt-8 flex flex-col sm:flex-row items-start gap-4 sm:gap-5">
+              <Link to="/products" className="group/btn inline-flex items-center justify-center bg-orange-600 text-white px-7 py-4 sm:px-8 sm:py-4 font-black uppercase tracking-[0.22em] text-[10px] sm:text-[11px] hover:bg-white hover:text-slate-900 transition-all shadow-xl hover:shadow-orange-500/30 active:scale-95">
                 Explore Catalog
-                <ArrowRight className="ml-4 w-5 h-5 group-hover/btn:translate-x-2 transition-transform" />
+                <ArrowRight className="ml-3 w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
               </Link>
-              <Link to="/contact" className="bg-white/10 text-white border-2 border-white/20 px-8 lg:px-12 py-4 lg:py-6 font-black uppercase tracking-widest text-xs flex items-center justify-center hover:bg-white hover:text-slate-950 transition-all backdrop-blur-md">
+              <Link to="/contact" className="inline-flex items-center justify-center bg-white/10 text-white border border-white/20 px-7 py-4 sm:px-8 sm:py-4 font-black uppercase tracking-[0.22em] text-[10px] sm:text-[11px] hover:bg-white hover:text-slate-950 transition-all backdrop-blur-md active:scale-95">
                 Technical Query
               </Link>
             </div>
           </ScrollReveal>
         </div>
-        <div className="absolute bottom-9 left-1/2 -translate-x-1/2 hidden lg:block animate-bounce opacity-100">
-          <div className="w-1 h-12 bg-gradient-to-b from-orange-400 to-transparent"></div>
+
+        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 hidden lg:block animate-bounce opacity-80">
+          <div className="w-px h-12 bg-gradient-to-b from-orange-400 to-transparent"></div>
         </div>
       </section>
 

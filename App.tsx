@@ -9,7 +9,7 @@ import {
   MapPin,
   Hexagon,
   ChevronRight,
-  Linkedin
+  MessageCircleMore
 } from 'lucide-react';
 
 import Home from './Home';
@@ -122,8 +122,8 @@ const Navbar: React.FC = () => {
             ))}
           </div>
           <div className="space-y-6 border-t border-slate-800 pt-8">
-            <a href="tel:+441215550123" className="flex items-center text-slate-400 font-bold uppercase tracking-widest text-xs">
-              <Phone className="w-5 h-5 mr-3 text-orange-600" /> +44 (0) 121 555 0123
+            <a href="tel:+447498713979" className="flex items-center text-slate-400 font-bold uppercase tracking-widest text-xs">
+              <Phone className="w-5 h-5 mr-3 text-orange-600" /> +44 7498 713979
             </a>
             <Link to="/contact" className="block w-full bg-orange-600 text-white text-center py-5 font-black uppercase tracking-widest text-sm rounded-sm">
               Get Project Pricing
@@ -157,16 +157,18 @@ const Footer: React.FC = () => {
             {/* Social Icons */}
             <div className="flex space-x-4">
               <a
-                href="https://www.linkedin.com/in/bright-richard70"
+                href="https://wa.me/447498713979"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-slate-900 border border-slate-800 flex items-center justify-center hover:bg-orange-600 hover:border-orange-600 transition-all"
+                aria-label="WhatsApp"
               >
-                <Linkedin className="w-5 h-5 text-white" />
+                <MessageCircleMore className="w-5 h-5 text-white" />
               </a>
               <a
-                href="mailto:info@velofibre.com"
+                href="mailto:salessupplies7@gmail.com"
                 className="w-10 h-10 bg-slate-900 border border-slate-800 flex items-center justify-center hover:bg-orange-600 hover:border-orange-600 transition-all"
+                aria-label="Email"
               >
                 <Mail className="w-5 h-5 text-white" />
               </a>
@@ -215,7 +217,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-center space-x-4">
                 <Phone className="w-5 h-5 text-orange-600 shrink-0" />
-                <span className="font-semibold text-slate-300">+44 7721 273139</span>
+                <span className="font-semibold text-slate-300">+44 7498 713979</span>
               </li>
             </ul>
           </div>
