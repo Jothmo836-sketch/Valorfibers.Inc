@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Valorfibres Inc logo">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="18" fill="url(#bg)"/>
+  <path d="M64 12 101 34v60L64 116 27 94V34L64 12Z" fill="#f97316" opacity="0.95"/>
+  <path d="M64 22 92 39v50L64 106 36 89V39L64 22Z" fill="#0f172a"/>
+  <path d="M47 43c10-8 22-8 34 0l-8 10c-7-4-13-4-18 0l-8-10Zm-2 26 15-12 15 12-15 12-15-12Zm23 7v13h-13v-13h13Z" fill="#ffffff"/>
+  <path d="M34 68h20v8H34zm40 0h20v8H74z" fill="#f97316"/>
+</svg>
