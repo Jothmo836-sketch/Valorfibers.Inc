@@ -60,9 +60,9 @@ const Navbar: React.FC = () => {
             <Logo className="w-10 h-10 lg:w-11 lg:h-11" />
             <div className="flex flex-col">
               <span className={`text-xl lg:text-2xl font-black heading-font tracking-tighter leading-none transition-colors duration-500 ${!scrolled && location.pathname === '/' ? 'text-white' : 'text-slate-900'}`}>
-                VELO<span className="text-orange-600">FIBRE</span>
+                VALOR<span className="text-orange-600">FIBRES</span>
               </span>
-              <span className={`text-[8px] font-bold uppercase tracking-[0.3em] transition-colors duration-500 ${!scrolled && location.pathname === '/' ? 'text-slate-200' : 'text-slate-700'}`}>NETWORK LIMITED</span>
+              <span className={`text-[8px] font-bold uppercase tracking-[0.3em] transition-colors duration-500 ${!scrolled && location.pathname === '/' ? 'text-slate-200' : 'text-slate-700'}`}>INC</span>
             </div>
           </Link>
 
@@ -147,7 +147,7 @@ const Footer: React.FC = () => {
             <div className="flex items-center space-x-3">
               <Logo className="w-10 h-10" />
               <span className="text-2xl font-black heading-font text-white tracking-tighter uppercase">
-                VELO<span className="text-orange-600">FIBRE</span>
+                VALOR<span className="text-orange-600">FIBRES</span>
               </span>
             </div>
             <p className="text-slate-500 leading-relaxed font-medium text-sm">
@@ -225,7 +225,7 @@ const Footer: React.FC = () => {
 
         {/* Footer Bottom Text */}
         <div className="border-t border-slate-900 pt-10 text-center text-[10px] font-black uppercase tracking-[0.4em] text-slate-600">
-          &copy; 1995–{new Date().getFullYear()} Valorfibres Inc | ISO 9001:2015 Certified | Precision Physical Infrastructure
+          &copy; 1995–{new Date().getFullYear()} Valorfibres Inc ISO 9001:2015 Certified Precision Physical Infrastructure
         </div>
       </div>
     </footer>

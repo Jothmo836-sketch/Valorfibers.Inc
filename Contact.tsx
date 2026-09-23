@@ -200,7 +200,7 @@ Sent via Valorfibres Online Portal`;
                       </div>
 
                       <div>
-                        <label className="block text-xs font-black text-slate-500 uppercase tracking-widest mb-2">Department / Subject</label>
+                        <label className="block text-xs font-black text-slate-500 uppercase tracking-widest mb-2">Department Subject</label>
                         <select 
                           value={formData.enquiryType}
                           onChange={(e) => setFormData({...formData, enquiryType: e.target.value})}
